@@ -1,0 +1,18 @@
+# Config will take names and IDs, case should not matter
+global:
+  slots: 9
+  invTitle: '&2ServerChooser'
+item:
+  type: COMPASS
+  title: '&2ServerChooser'
+  lore:
+  - Use this tool choose the server!
+  - Just make a right click and
+  - then click the item in the inv
+commands:
+  GOLD_BLOCK:
+    command: gamemode 1
+    title: '&5Creative Mode'
+    lore:
+    - This will bring you
+    - a creative experience!

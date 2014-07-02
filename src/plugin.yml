@@ -1,0 +1,12 @@
+name: CompassCommand
+main: de.dustplanet.compasscommand.CompassCommand
+version: 1.0
+author: xGhOsTkiLLeRx
+permissions:
+    compasscommand.get:
+        default: op
+        description: Get the special compass
+commands:
+  compass:
+    description: Used to acquire a special compass
+    usage: /<command>

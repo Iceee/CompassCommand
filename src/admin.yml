@@ -1,0 +1,15 @@
+# Config will take names and IDs, case should not matter
+global:
+  slots: 9
+  invTitle: '&4AdminPanel'
+item:
+  type: COMPASS
+  title: '&4AdminTool'
+  lore:
+  - Use this tool to administrate the server!
+commands:
+  DIAMOND:
+    command: gamemode 1
+    title: '&2Creative Mode'
+    lore:
+    - Go creative
